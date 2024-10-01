@@ -34,4 +34,4 @@ jobs:
         run: 'gcloud info'
 
       - name: Build Docker Image and push to GCP
-        run: 'gcloud builds submit --tag us-central1-docker.pkg.dev/notely-437308/notely-ar-repo/rushyn/notely:latest .'
+        run: 'gcloud builds submit --tag us-central1-docker.pkg.dev/notely-437308/notely-ar-repo/notely:latest .'
